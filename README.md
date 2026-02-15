@@ -1,4 +1,8 @@
 # Hi, I'm Uba Chan 👋
+<p align="center">
+  <img src="banner.png" alt="Uba Chan Banner" width="100%">
+</p>
+
 ### AI Automation Expert | Vibe Coder | SaaS Builder
 
 Helping businesses scale through intelligent workflows, custom AI agents, and seamless integrations. I specialize in turning complex manual processes into efficient, automated systems.
