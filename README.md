@@ -62,7 +62,7 @@ graph LR
 ### 🧠 3. Agentic RAG Workflow - Intelligent Knowledge Base
 *An advanced AI Agent system that understands user intent and retrieves contextually relevant information from custom databases using Vector Search.*
 
-- **Core Tech:**
+- **Core Tech:**  ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat&logo=n8n&logoColor=white) ![Pinecone](https://img.shields.io/badge/Pinecone-27272E?style=flat) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
 ```mermaid
 graph TD
