@@ -16,7 +16,7 @@ Helping businesses scale through intelligent workflows, custom AI agents, and se
 - 🌱 **I’m currently learning:** Advanced Multi-Agent Orchestration and scaling SaaS with **Lovable** & **n8n**.
 - 👯 **I’m looking to collaborate on:** Open-source AI automation workflows and innovative SaaS projects.
 - 💬 **Ask me about:** **n8n** automation, AI Agents, **Supabase** integration, and building a SaaS portfolio.
-- 📫 **How to reach me:** https://www.linkedin.com/in/uba-chan or ubachan2025@gmail.com
+- 📫 **How to reach me:** [LinkedIn](https://www.linkedin.com/in/uba-chan) , [Mail](mailto:ubachan2025@gmail.com) or [WhatsApp](https://wa.me/8801847791609)
 - ⚡ **Fun fact:** I don't just write code! I code the vibe. ✨
 
 ---
