@@ -84,13 +84,61 @@ graph TD
 
 ---
 
+#### 💬 4. AI Sales Agent - Multi-Modal & Real-Time
+*An autonomous omni-channel sales agent capable of processing voice, images, and text to manage orders and inventory.*
+
+- **Core Tech:** ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat&logo=n8n&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![Pinecone](https://img.shields.io/badge/Pinecone-27272E?style=flat) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
+
+```mermaid
+graph TD
+  User((User Input)) --> Webhook[n8n Webhook]
+  Webhook --> Router{Input Type?}
+  
+  Router -->|Image| Vision[Gemini Vision Analysis]
+  Router -->|Voice| Audio[OpenAI Whisper Transcribe]
+  Router -->|Text| Token[Token & Transfer Check]
+  
+  Vision --> Agent
+  Audio --> Agent
+  Token --> Agent
+  
+  Agent["🤖 AI Agent (LangChain)"]
+  
+  subgraph Tools [Agent Tools & Memory]
+    direction TB
+    Agent <--> GSheets[("Google Sheets: Stock/Orders")]
+    Agent <--> Vector[Pinecone: FAQ/RAG]
+    Agent <--> History[BD Courier API: Fraud Check]
+    Agent <--> Handover[Supabase: Human Handoff]
+    Agent <--> Memory[Postgres Chat Memory]
+  end
+  
+  Agent -->|Response| Messenger[FB Messenger Reply]
+  
+  style Agent fill:#FF6D5A,color:#fff,stroke:#fff
+  style Tools fill:#2D3B45,color:#fff,stroke:#fff
+
+  ```
+
+### 🚀 Key Features
+
+- **👁️ Multi-Modal Intelligence:** Uses **Gemini Vision** to identify products from photos and **OpenAI Whisper** to understand voice notes.
+- **📦 Smart Order Management:** Checks stock in **Google Sheets**, verifies user history via **BD Courier API**, and places orders automatically.
+- **🧠 RAG & Context:** Retrieves knowledge from **Pinecone** and maintains long-term conversation history via **Postgres**.
+- **🤝 Human Handoff:** Automatically transfers chat to a human agent via **Supabase** logic when needed.
+- **🔗 Status:** [Live Demo](#) | [Source Code](#)
+
+---
+
 ### 📊 GitHub Stats
 
   ![Uba's GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=ubachan&show_icons=true&theme=radical&hide_border=true)
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ubachan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 
+---
 
 ### 🤝 Connect with Me
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/uba-chan)
 [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:ubachan2025@gmail.com)
 
+---
