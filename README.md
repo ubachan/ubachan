@@ -88,10 +88,10 @@ graph TD
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ubachan-ai&show_icons=true&theme=radical&hide_border=true" alt="Uba's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ubachan-ai&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dubachan-ai%26show_icons%3Dtrue%26theme%3Dradical%26hide_border%3Dtrue" alt="Uba's GitHub Stats" />
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dubachan-ai%26layout%3Dcompact%26theme%3Dradical%26hide_border%3Dtrue" alt="Top Languages" />
 </p>
----
+
 
 ### 🤝 Connect with Me
 [LinkedIn](https://linkedin.com/in/uba-chan) |  | [Twitter](https://twitter.com/ubachan_)
