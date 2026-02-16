@@ -17,7 +17,7 @@ Helping businesses scale through intelligent workflows, custom AI agents, and se
 - 👯 **I’m looking to collaborate on:** Open-source AI automation workflows and innovative SaaS projects.
 - 💬 **Ask me about:** **n8n** automation, AI Agents, **Supabase** integration, and building a SaaS portfolio.
 - 📫 **How to reach me:** https://www.linkedin.com/in/uba-chan or ubachan2025@gmail.com
-- ⚡ **Fun fact:** I don't just write code; I code the vibe. ✨
+- ⚡ **Fun fact:** I don't just write code! I code the vibe. ✨
 
 ---
 ### 🛠️ My Tech Stack
@@ -82,17 +82,15 @@ graph TD
 
 - **Use Case:** Custom AI chatbots for businesses that need to talk to their own data.
 
-
 ---
 
 ### 📊 GitHub Stats
 
-<p align="left">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dubachan-ai%26show_icons%3Dtrue%26theme%3Dradical%26hide_border%3Dtrue" alt="Uba's GitHub Stats" />
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dubachan-ai%26layout%3Dcompact%26theme%3Dradical%26hide_border%3Dtrue" alt="Top Languages" />
-</p>
+  ![Uba's GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=ubachan&show_icons=true&theme=radical&hide_border=true)
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ubachan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 
 
 ### 🤝 Connect with Me
-[LinkedIn](https://linkedin.com/in/uba-chan) |  | [Twitter](https://twitter.com/ubachan_)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/uba-chan)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:ubachan2025@gmail.com)
 
