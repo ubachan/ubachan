@@ -45,6 +45,7 @@ Helping businesses scale through intelligent workflows, custom AI agents, and se
 
 ### 📸 2. NBGC - Next-Gen Content (Photos to UGC Ads)
 *A high-efficiency automation pipeline that transforms raw product photos into high-converting UGC ads using AI.*
+
 - **Core Tech:** ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat&logo=n8n) ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare)
 
 ```mermaid
@@ -53,28 +54,6 @@ graph LR
   B --> C[Ad Copy & Design]
   C --> D[UGC Asset Ready]
   style B fill:#8E75B2,color:#fff
-
- * Impact: Automated asset creation for marketing agencies.
- * Status: Live Demo | Source Code
-🧠 3. Agentic RAG Workflow - Intelligent Knowledge Base
-An advanced AI Agent system that understands user intent and retrieves contextually relevant information from custom databases using Vector Search.
- * Core Tech:
-<!-- end list -->
-graph TD
-  User((User Query)) --> Hook[n8n Webhook]
-  Hook --> Embed[Embedding]
-  Embed --> Search{Vector Search}
-  Search -- Query --> PDB[(Pinecone/MongoDB)]
-  PDB -- Context --> AI[AI Model]
-  AI --> Result[Synthesized Answer]
-  Result --> Response[Response]
-
-  style Search fill:#f9f,stroke:#333
-  style PDB fill:#27272e,stroke:#fff,color:#fff
-
- * Key Features: Intent recognition, dynamic context retrieval, and low-latency AI responses.
- * Use Case: Custom AI chatbots for businesses that need to talk to their own data.
-
 ---
 
 ### 📊 GitHub Stats
