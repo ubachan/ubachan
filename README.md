@@ -123,10 +123,18 @@ graph TD
 
 ### 🚀 Key Features
 
-- **👁️ Multi-Modal Intelligence:** Uses **Gemini Vision** to identify products from photos and **OpenAI Whisper** to understand voice notes.
-- **📦 Smart Order Management:** Checks stock in **Google Sheets**, verifies user history via **BD Courier API**, and places orders automatically.
-- **🧠 RAG & Context:** Retrieves knowledge from **Pinecone** and maintains long-term conversation history via **Postgres**.
-- **🤝 Human Handoff:** Automatically transfers chat to a human agent via **Supabase** logic when needed.
+- **👁️ Multi-Modal Intelligence:** - Uses **Gemini Vision** to identify products directly from customer photos.
+  - Uses **OpenAI Whisper** to transcribe and understand voice notes in real-time.
+  
+- **📦 Smart Inventory System:** - Real-time bi-directional sync with **Google Sheets**.
+  - Checks stock before confirming orders and auto-updates inventory after sales.
+
+- **🛡️ Fraud Detection:** - Integrated with **BD Courier API** to analyze customer phone numbers and delivery history (Success/Return ratio) before accepting COD orders.
+
+- **🧠 RAG & Long-Term Memory:** - Uses **Pinecone Vector DB** for retrieving FAQs/Policies.
+  - Maintains conversation context using **Postgres** memory.
+
+- **🤝 Human Handoff Protocol:** - Intelligent intent detection triggers a seamless transfer to a human agent via **Supabase** when complex support is needed.
 - **🔗 Status:**  [Source Code](https://github.com/ubachan/AI-Sales-Agent-Omni-Channel-Automation.git)
 
 ---
